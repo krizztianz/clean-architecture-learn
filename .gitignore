@@ -1,0 +1,271 @@
+# =========================================================
+# .NET / C# Build Output
+# =========================================================
+
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Publish output
+publish/
+Publish/
+*.publishsettings
+
+# .NET generated files
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+*.cache
+*.resources.dll
+
+# But do not ignore source-level DLLs if someday intentionally added manually
+#!lib/**/*.dll
+
+
+# =========================================================
+# NuGet
+# =========================================================
+
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# NuGet cache/config generated locally
+*.nuget.dgspec.json
+project.nuget.cache
+
+
+# =========================================================
+# Visual Studio
+# =========================================================
+
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio generated files
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+*.tlog
+*.lastbuildstate
+*.idb
+*.iobj
+*.ipdb
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*_h.h
+ipch/
+Generated\ Files/
+
+
+# =========================================================
+# JetBrains Rider / ReSharper
+# =========================================================
+
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+
+# =========================================================
+# VS Code
+# =========================================================
+
+.vscode/*
+
+# Keep useful team-shared VS Code files if you create them later
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# =========================================================
+# Test Results / Coverage
+# =========================================================
+
+TestResults/
+[Tt]est[Rr]esults/
+coverage/
+Coverage/
+coverage-report/
+coverage.opencover.xml
+coverage.cobertura.xml
+*.coverage
+*.coveragexml
+*.trx
+
+# Coverlet generated files
+CoverletSourceRootsMapping*
+*.coverage.json
+
+
+# =========================================================
+# ASP.NET Core / Local Config / Secrets
+# =========================================================
+
+# Keep base config in Git
+!appsettings.json
+
+# Usually safe to keep for local tutorial/dev defaults.
+# If this file contains real secrets, remove the next line.
+!appsettings.Development.json
+
+# Ignore environment-specific or private config
+appsettings.Local.json
+appsettings.*.Local.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.QA.json
+appsettings.UAT.json
+appsettings.Secrets.json
+appsettings.*.Secrets.json
+
+# User secrets should not be committed
+secrets.json
+
+
+# =========================================================
+# Environment Files
+# =========================================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+
+# =========================================================
+# Database / Local Runtime Files
+# =========================================================
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# Local storage / uploads
+wwwroot/uploads/
+uploads/
+storage/
+
+
+# =========================================================
+# Docker / Dev Container Local Override
+# =========================================================
+
+docker-compose.override.yml
+docker-compose.*.override.yml
+
+# Keep sample Docker env files if needed
+!.env.docker.example
+
+
+# =========================================================
+# OS Generated Files
+# =========================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+
+# =========================================================
+# Temporary Files
+# =========================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# Archives generated during backup/export
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+
+# =========================================================
+# IDE / Tooling Misc
+# =========================================================
+
+*.pid
+*.seed
+*.pid.lock
+*.lock
+*.tsbuildinfo
+
+# Local history extensions
+.history/
+.localhistory/
+
+
+# =========================================================
+# Project-specific Notes
+# =========================================================
+
+# Generated build folders already present in this project:
+# src/**/bin/
+# src/**/obj/
+# tests/**/bin/
+# tests/**/obj/
